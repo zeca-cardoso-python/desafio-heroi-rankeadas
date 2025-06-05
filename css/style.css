@@ -1,0 +1,22 @@
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+#resultado {
+    color: #00ffcc;
+}
+
+.hero-logo {
+    max-width: 150px;
+    height: auto;
+    filter: drop-shadow(0 0 10px #00ffcc);
+    transition: transform 0.3s ease;
+}
+
+.hero-logo:hover {
+    transform: scale(1.05); }
